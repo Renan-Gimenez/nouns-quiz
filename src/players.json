@@ -1,0 +1,55 @@
+{
+    "players": [
+      {
+        "name": "Emily Davis",
+        "address": "0x2dAbA0c5c960129dc7E1b24a703b7CbA03D8Fc5c",
+        "points": 265
+      },
+      {
+        "name": "William Johnson",
+        "address": "0x8f0DEe9A042E9b6f1c77a86aE243b47CFfF21B70",
+        "points": 133
+      },
+      {
+        "name": "Sophia Lee",
+        "address": "0x4BaF23cD8B14f84B9d44875dC42aCDbfDe8d9C17",
+        "points": 293
+      },
+      {
+        "name": "Renan Gimenez",
+        "address": "0x6C9D7Cf4bA28f76e9698cFfA7A266fDa85600736",
+        "points": 224
+      },
+      {
+        "name": "Olivia Wilson",
+        "address": "0x3AB3Bd3f0770F2D925C524B5E01173bcf08B16f0",
+        "points": 150
+      },
+      {
+        "name": "Ethan Garcia",
+        "address": "0x77EBB09c16b791222Ed300eC97Bc9f9aEF5bF41d",
+        "points": 174
+      },
+      {
+        "name": "Ava Clark",
+        "address": "0xD6c1f9C43Bf202A16aB69c51b8CBAE6e271B2C2f",
+        "points": 211
+      },
+      {
+        "name": "Michael Taylor",
+        "address": "0xA6D3B6f3b9C6961E150a7D019bF386B3f678Bd1c",
+        "points": 122
+      },
+      {
+        "name": "Isabella Anderson",
+        "address": "0x03Ea95AB1eCf1aDEe54a03F56C9f05D34bF124C7",
+        "points": 197
+      },
+      {
+        "name": "James Hernandez",
+        "address": "0x5Baa7bB8Dd982c237F55fB56CbC7c1285F5B5E5C",
+        "points": 101
+      }
+    ]
+  }
+  
