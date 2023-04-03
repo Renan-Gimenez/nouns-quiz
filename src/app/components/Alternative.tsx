@@ -13,6 +13,10 @@ const StyledButton = styled.button`
   text-align: center;
   padding: 0 21px;
 
+  color: #808080;
+  border: 1px solid #808080;
+  border-radius: 25px;
+
   cursor: pointer;
   transition: 200ms;
 
