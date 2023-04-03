@@ -1,5 +1,3 @@
-import classNames from "classnames";
-import React, { useState } from "react";
 import styled from "styled-components";
 
 const StyledButton = styled.button`
@@ -29,7 +27,7 @@ const StyledButton = styled.button`
 `;
 
 type OptionProps = {
-  btnClass: string;
+  btnClass?: string;
   id: string;
   title: string;
   onClick: any;
@@ -39,7 +37,7 @@ export function Alternative({ btnClass, id, title, onClick }: OptionProps) {
 
   return (
     <StyledButton className={btnClass}
-      id = {id}
+      id={id}
       onClick={onClick}
     >
       <span>{title}</span>

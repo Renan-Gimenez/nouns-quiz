@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
 
 const Box = styled.div`
@@ -45,10 +45,11 @@ const Number = styled.div`
 `;
 
 type Props = {
-    totalTime: number;
+  totalTime: number;
+  onTimeOut: () => void;
 }
 
-export function Timer({ totalTime }: Props) {
+export function Timer({ totalTime, onTimeOut }: Props) {
   const initialTime = totalTime;
   const [timeLeft, setTimeLeft] = useState(initialTime);
   const circlePerimeter = 2 * Math.PI * 40;
@@ -60,15 +61,14 @@ export function Timer({ totalTime }: Props) {
 
     return () => {
       clearInterval(intervalId);
-      if (timeLeft === 0) {
-        console.log("Teste");
-      }
     };
   }, []);
 
-  const TimeOut = () => {
-    alert("GameOver");
-  };
+  useEffect(() => {
+    if (timeLeft === 0) {
+      onTimeOut();
+    }
+  }, [timeLeft])
 
   return (
     <Box>
