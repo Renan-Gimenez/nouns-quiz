@@ -8,7 +8,8 @@ export const StyledDiv = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid red;
+
+  background-color: #6A79FF;
 
   .nouns-logo {
     height: 60px;
