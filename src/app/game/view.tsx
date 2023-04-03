@@ -10,7 +10,6 @@ type Alternative = {
   title: string;
 }
 
-
 export default function GameView() {
   const { currentQuestionId, totalQuestions, question, alternatives, score, onAnswer, onGameOver } = useGame();
 
