@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 
 import { RiQuestionLine } from "react-icons/ri";
@@ -30,7 +29,7 @@ export default function QuestionCount(props: any) {
   return (
     <StyledDiv>
       <RiQuestionLine />
-      <span>{`${props.currentQuestion}/20`}</span>
+      <span>{`${props.currentQuestion + 1}/${props.totalQuestions}`}</span>
     </StyledDiv>
   );
 }
