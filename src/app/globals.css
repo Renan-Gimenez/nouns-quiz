@@ -1,13 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .correct-awnser {
-  background-color: green;
+  background-color: #68C04F;
+  color: white;
+  border: none;
 }
 
 .wrong-awnser {
   background-color: red;
+  color: white;
+  border: none;
 }
