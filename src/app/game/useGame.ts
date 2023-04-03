@@ -43,7 +43,7 @@ export const useGame = () => {
 
 const allQuestions = [
   {
-    title: "Pegunta 1",
+    title: "Pergunta 1",
     alternatives: [
       {
         id: "1",
@@ -65,7 +65,7 @@ const allQuestions = [
     correctAnswer: '1'
   },
   {
-    title: "Pegunta 2",
+    title: "Pergunta 2",
     alternatives: [
       {
         id: "1",
@@ -87,7 +87,7 @@ const allQuestions = [
     correctAnswer: '2'
   },
   {
-    title: "Pegunta 3",
+    title: "Pergunta 3",
     alternatives: [
       {
         id: "1",
@@ -109,7 +109,7 @@ const allQuestions = [
     correctAnswer: '3'
   },
   {
-    title: "Pegunta 4",
+    title: "Pergunta 4",
     alternatives: [
       {
         id: "1",
