@@ -13,8 +13,6 @@ export const StyledDiv = styled.div`
 
   padding: 48px;
 
-  border: 1px solid red;
-
   .buttons {
     display: flex;
     flex-direction: column;
